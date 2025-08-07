@@ -1,0 +1,41 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Distribution / build folders
+build/
+dist/
+*.egg-info/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and databases
+*.log
+logs/
+*.db
+*.sqlite3
+*.sqlite
+
+# Testing files
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# FastAPI specific
+*.pid
+instance/
+.webassets-cache
