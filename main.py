@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import os
 import uvicorn
 
-app = FastAPI()
+app = FastAPI(title="Audio Games Homepage", version="1.0.0")
 
 @app.get("/home")
 def get_home():
